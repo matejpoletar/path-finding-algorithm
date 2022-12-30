@@ -1,0 +1,19 @@
+{
+	"name": "ss-home-assignement",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.js",
+	"type": "module",
+	"scripts": {
+		"test": "vitest --run --reporter verbose",
+		"test:watch": "vitest",
+		"coverage": "vitest run --coverage"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@vitest/coverage-c8": "^0.26.2",
+		"vitest": "^0.26.2"
+	}
+}
